@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "game": "sdvx",
+        "playtype": "Single",
+        "service": "Asphyxia CORE"
+    },
+    "scores": [{
+            "score": 1,
+            "lamp": "lamp",
+            "matchType": "matchType",
+            "identifier": "1",
+            "difficulty": "difficulty",
+            "timeAchieved": "1"
+        }
+    ]
+}
