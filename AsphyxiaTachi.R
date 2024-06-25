@@ -32,6 +32,6 @@ data_edited <- data_clean %>%
 json_format <- fromJSON("Meta/format.json")
 json_format[[2]] <- data_edited
 
-json_output <- toJSON(json_format)
+json_output <- toJSON(json_format, auto_unbox = TRUE)
 
 write(json_output,"Output/output.json")
